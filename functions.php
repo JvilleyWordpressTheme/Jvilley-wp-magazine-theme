@@ -49,10 +49,11 @@ add_action( 'wp_enqueue_scripts', 'jvilley_css' );
 function jvilley_js() {
 
   // Called in header
-  wp_enqueue_script( 'skel_min_js', get_stylesheet_directory() . '/asses/js/skel.min.js' );
-  wp_enqueue_script( 'util_js', get_stylesheet_directory() . '/asses/js/util.js', array( 'jquery' ) );
-  wp_enqueue_script( 'respond_min_js', get_stylesheet_directory() . '/asses/js/respond.min.js' );
-  wp_enqueue_script( 'main_js', get_stylesheet_directory() . '/asses/js/main.js', array( 'jquery' ) );
+  wp_enqueue_script( 'skel_min_js', get_stylesheet_directory() . '/assets/js/skel.min.js' );
+  wp_enqueue_script( 'util_js', get_stylesheet_directory() . '/assets/js/util.js', array( 'jquery' ) );
+  wp_enqueue_script( 'respond_min_js', get_stylesheet_directory() . '/assets/js/respond.min.js' );
+  wp_enqueue_script( 'wow_min_js', get_stylesheet_directory() . '/assets/js/wow.min.js' );
+  wp_enqueue_script( 'main_js', get_stylesheet_directory() . '/assets/js/main.js', array( 'jquery' ) );
 
   // Called from the footer
   wp_enqueue_script( 'bootstrap_min_js', get_stylesheet_directory() . '/assets/js/bootstrap.min.js', array( 'jquery' ), '', true );
