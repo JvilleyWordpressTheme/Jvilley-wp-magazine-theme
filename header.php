@@ -1,3 +1,13 @@
+
+ <?php
+ /**
+ * The main template file
+ * It puts together the home page if no home.php file exists.
+ *
+ * @package Simple Blog Theme
+*/
+get_header(); ?>
+<!-- the beginning of the page or post content -->
 <head>
 		<title>Jvilley</title>
 		<meta charset="utf-8" />
