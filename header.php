@@ -6,7 +6,6 @@
  *
  * @package Simple Blog Theme
 */
-get_header(); ?>
 <!-- the beginning of the page or post content -->
 <head>
 		<title>Jvilley</title>
