@@ -40,6 +40,11 @@ function jvilley_css() {
   wp_enqueue_style( 'jquery_fancybox_css', get_stylesheet_directory() . '/assets/css/jquery.fancybox.css' );
   wp_enqueue_style( 'theme_css', get_stylesheet_directory() . '/assets/css/theme.css' );
   wp_enqueue_style( 'style_css', get_stylesheet_directory() . '/assets/css/style.css' );
+  wp_enqueue_style( 'fontawesome_css', get_stylesheet_directory() . '/assets/css/font-awesome.min.css' );
+  wp_enqueue_style( 'fontawesome1_css', get_stylesheet_directory() . '/assets/css/font-awesome1.min.css' );
+  wp_enqueue_style( 'main_css', get_stylesheet_directory() . '/assets/css/main.css' );
+  wp_enqueue_style( 'main1_css', get_stylesheet_directory() . '/assets/css/main1.css' );
+
 }
 add_action( 'wp_enqueue_scripts', 'jvilley_css' );
 
