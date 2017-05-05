@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-<head>
-<!-- various meta tags, your site title, etc. -->
-<?php wp_head(); ?>
 </head>
 <body>
   <section id="newsSection">
