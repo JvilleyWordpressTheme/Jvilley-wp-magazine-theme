@@ -24,6 +24,30 @@ function jvilley_setup() {
 	 * to change 'twentyseventeen' to the name of your theme in all the template files.
 	 */
   load_theme_textdomain( 'jvilley' );
+
+  /*
+   * Enable support for Post Thumbnails on posts and pages.
+   *
+   * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
+   */
+  add_theme_support( 'post-thumbnails' );
+
+  // This theme uses wp_nav_menu().
+  register_nav_menus( array(
+    'pramary-menu' => esc_html__( 'Primary', 'jvilley' ),
+  ) );
+  
+  /*
+   * Switch default core markup for search form, comment form, and comments
+   * to output valid HTML5.
+   */
+  add_theme_support( 'html5', array(
+    'search-form',
+    'comment-form',
+    'comment-list',
+    'gallery',
+    'caption',
+  ) );
 }
 add_action( 'after_setup_theme', 'jvilley_setup' );
 
