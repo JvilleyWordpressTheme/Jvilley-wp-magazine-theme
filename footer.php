@@ -1,13 +1,30 @@
 <?php
 /**
- * The template for displaying the footer
+ * Footer template
  *
  * Contains the closing of the #content div and all content after.
-
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage jvilley-wp-magazine
  */
-
 ?>
-<footer id="footer">
+</div><!-- #content -->
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+      <?php printf( esc_html__( '%1$s %2$s.', 'jvilley' ), 'Jvilley &copy; 2017  All rights reserved', '| Developed By <a href="#">Jishnu Raj</a>' ); ?>
+    </div><!-- .site-info -->
+  </footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+</body>
+</html>
+
+<!--footer id="footer">
     <div class="footer_top">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4">
@@ -43,8 +60,9 @@
     </div>
     <div class="footer_bottom">
  <p class="copyright">Jvilley &copy; 2017  All rights reserved | Developed By <a href="pages/contact.html"><font color="red">Jishnu Raj</font></a></p>
-   
+   '[
+   '
     </div>
   </footer>
-</div>
+</div-->
 

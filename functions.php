@@ -35,8 +35,9 @@ function jvilley_setup() {
   // This theme uses wp_nav_menu().
   register_nav_menus( array(
     'pramary-menu' => esc_html__( 'Primary', 'jvilley' ),
+    'tag-menu' => esc_html__( 'Tag', 'jvilley' ),
   ) );
-  
+
   /*
    * Switch default core markup for search form, comment form, and comments
    * to output valid HTML5.
