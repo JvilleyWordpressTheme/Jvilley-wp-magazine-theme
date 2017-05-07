@@ -34,7 +34,7 @@ function jvilley_setup() {
 
   // This theme uses wp_nav_menu().
   register_nav_menus( array(
-    'pramary-menu' => esc_html__( 'Primary', 'jvilley' ),
+    'primary-menu' => esc_html__( 'Primary', 'jvilley' ),
     'tag-menu' => esc_html__( 'Tag', 'jvilley' ),
   ) );
 
@@ -69,7 +69,6 @@ function jvilley_css() {
   wp_enqueue_style( 'fontawesome1_css', get_stylesheet_directory() . '/assets/css/font-awesome1.min.css' );
   wp_enqueue_style( 'main_css', get_stylesheet_directory() . '/assets/css/main.css' );
   wp_enqueue_style( 'main1_css', get_stylesheet_directory() . '/assets/css/main1.css' );
-
 }
 add_action( 'wp_enqueue_scripts', 'jvilley_css' );
 
