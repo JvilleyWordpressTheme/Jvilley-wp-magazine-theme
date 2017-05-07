@@ -6,27 +6,27 @@
             <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
             <ul class="latest_postnav">
               <li>
-                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img1.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img1.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img1.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img1.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img1.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
                 </div>
               </li>
@@ -46,22 +46,22 @@
             <h2><span>Popular Post</span></h2>
             <ul class="spost_nav">
               <li>
-                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img1.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img2.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img1.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="/wp-content/themes/Jvilley-wp-magazine-theme/images/post_img2.jpg"> </a>
                   <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
                 </div>
               </li>
@@ -70,7 +70,7 @@
           <div class="single_sidebar">
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation" class="active"><a href="#category" aria-controls="home" role="tab" data-toggle="tab">Pages</a></li>
-             
+
             </ul>
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="category">
@@ -84,10 +84,10 @@
                   <li class="cat-item"><a href="#">Photography</a></li>
                 </ul>
               </div>
-             
+
           <div class="single_sidebar wow fadeInDown">
             <h2><span>Sponsor</span></h2>
-            <a class="sideAdd" href="#"><img src="images/add_img.jpg" alt=""></a> </div>
+            <a class="sideAdd" href="#"><img src="/wp-content/themes/Jvilley-wp-magazine-theme/images/add_img.jpg" alt=""></a> </div>
           <div class="single_sidebar wow fadeInDown">
             <h2><span>Select by Category </span></h2>
             <select class="catgArchive">
@@ -111,5 +111,3 @@
       </div>
     </div>
   </section>
-
-
