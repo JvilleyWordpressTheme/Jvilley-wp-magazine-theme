@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-</head>
-<body>
+
   <section id="newsSection">
     <div class="row">
       <div class="col-lg-12 col-md-12">
@@ -28,6 +27,7 @@
       </div>
     </div>
   </section>
+
   <section id="sliderSection">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-8">
@@ -58,11 +58,8 @@
           </div>
         </div>
       </div>
-
-
-
-
-
+    </div>
+  </section>
 
   <section id="contentSection">
     <div class="row">
@@ -251,7 +248,11 @@
           </div>
         </div>
       </div>
-      <?php wp_footer(); ?>
-    </body>
+    </div>
+  </section>
+  <?php wp_footer(); ?>
+
+</body>
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
